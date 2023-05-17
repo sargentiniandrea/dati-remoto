@@ -24,11 +24,15 @@ class Dati_Remoto_Public {
 		// Classe stile e script per area public
 		require_once DR_PLUG_PATH . 'public/class/class-public-enqueue.php';
 
+		// Classe per shortcode
+		require_once DR_PLUG_PATH . 'public/class/class-shortcode.php';
+
 	}
 
 	private function getClassiPublic(){
 
 		$classPublicEnqueue = new Dati_Remoto_Public_Enqueue();
+		$classShortcode = new Dati_Remoto_Shortcode();
 
 	}
 

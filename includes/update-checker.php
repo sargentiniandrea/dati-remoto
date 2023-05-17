@@ -5,12 +5,14 @@
  */
 
 // Slug repository GitHub
-$slugGitPlugin = 'dati-remoto';
+$slugGitPlugin = DR_SLUG;
+
 // Ramo. Es. Stable 
-$branchGitPlugin = 'Development';
+$branchGitPlugin = 'development';
 
 // Link repository GitHub.
 $linkGitPlugin = 'https://github.com/sargentiniandrea/'.$slugGitPlugin.'/';
+
 // Token
 $token = get_option('token_updates') ? get_option('token_updates') : '';
 
