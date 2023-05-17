@@ -1,0 +1,27 @@
+{
+	"name": "Nome Plugin",
+	"version": "1.0",
+	"download_url": "https://andreasargentini.com/updates/nome-plugin/nome-plugin.zip",
+
+	"requires": "6.0",
+	"tested": "6.2",
+	"last_updated": "2023-05-08 16:00:00",
+	"upgrade_notice": "Aggiornamento obbligatorio",
+
+	"sections": {
+		"description": "Descrizione plugin",
+		"installation": "Istruzioni per installazione",
+		"changelog": "Changelog. <p>Prima versione del plugin.</p>"
+	},
+	
+	"icons" : {
+		"1x" : "http://w-shadow.com/files/external-update-example/assets/icon-128x128.png",
+		"2x" : "http://w-shadow.com/files/external-update-example/assets/icon-256x256.png"
+    },
+
+	"banners": {
+		"low": "http://w-shadow.com/files/external-update-example/assets/banner-772x250.png",
+		"high": "http://w-shadow.com/files/external-update-example/assets/banner-1544x500.png"
+	}
+
+}
