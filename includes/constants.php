@@ -18,8 +18,6 @@ define('DR_NAME', $pluginName);
 define('DR_VERSION', $version);
 // Text Domain Plugin
 define('DR_TXT_DOM', $textDomain);
-// Slug Plugin
-define('DR_SLUG', plugin_basename(dirname(DR_MAIN_FILE_PATH)));
 // Percorso Plugin
 Define('DR_PLUG_PATH' , plugin_dir_path(DR_MAIN_FILE_PATH));
 // URL Plugin

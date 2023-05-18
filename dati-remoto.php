@@ -17,9 +17,10 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /*
- * Percorso file principale
+ * Percorso file principale e slug
  */
 Define('DR_MAIN_FILE_PATH' , __FILE__);
+define('DR_SLUG', 'dati-remoto');
 
 /*
  * Costanti
