@@ -46,7 +46,7 @@ class Dati_Remoto_Utility {
             }
         } else {
             $esito['link'] = 'error';
-            $esito['message'] = 'Collegamento dominio mancante.<br>Controlla le impostazioni';
+            $esito['message'] = 'URL dominio mancante. Controlla le impostazioni.';
             return $esito;
         }
     }

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Dati Remoto
 Description: Accede a dati da Rest Api pubbliche per formattare tabelle orari e liste operatori dinamiche.
-Version:     1.0.1
+Version:     1.0.2
 Text Domain: dati_remoto
 Domain Path: /languages
 License:     GPL2

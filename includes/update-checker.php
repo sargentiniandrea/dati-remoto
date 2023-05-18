@@ -8,7 +8,7 @@
 $slugGitPlugin = DR_SLUG;
 
 // Ramo. Es. Stable 
-$branchGitPlugin = 'master';
+$branchGitPlugin = get_option('branch_updates') ? get_option('branch_updates') : 'master';
 
 // Link repository GitHub.
 $linkGitPlugin = 'https://github.com/sargentiniandrea/'.$slugGitPlugin.'/';

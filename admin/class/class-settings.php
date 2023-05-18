@@ -107,9 +107,15 @@ class Dati_Remoto_Settings{
 
             'setting_aggiornamenti' => array(
                 array(
+                    'id'    => 'branch_updates',
+                    'label' => __( 'Branch aggiornamenti', DR_TXT_DOM ),
+                    'desc'    => __( 'Inserisci il branch di collegamento. Valore di default: master.', DR_TXT_DOM ),
+                    'type'  => 'text'
+                ),
+                array(
                     'id'    => 'token_updates',
                     'label' => __( 'Token aggiornamenti', DR_TXT_DOM ),
-                    'desc'    => __( 'Inserisci il token di collegamento per gli aggiornamenti', DR_TXT_DOM ),
+                    'desc'    => __( '<strong>In caso di repository privata.</strong> Inserisci il token di collegamento.', DR_TXT_DOM ),
                     'type'  => 'text'
                 ),
             ),
