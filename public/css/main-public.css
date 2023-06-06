@@ -4,7 +4,7 @@
 
 .cont-tab-op{overflow: auto;}
 .tabella-op{word-break:keep-all; width: 100%; min-width: 1086px;}
-.tabella-op td{border: 1px solid gray; border-width: 0px 1px 1px 0px; text-align: center; padding:12px; vertical-align: middle; background-color: white;}
+.tabella-op td{border: 1px solid gray; border-width: 0px 1px 1px 0px; text-align: center; padding:12px 10px; vertical-align: middle; background-color: white;}
 .tabella-op td:first-child{border-left-width: 1px; text-transform: uppercase;}
 .tabella-op thead th{color:white; text-transform: uppercase; text-align: center; background-color: var(--headTabella); font-weight: 400; font-size: 16px; border: 1px solid var(--headTabella)}
 .tabella-op tbody .tab-giorno-mob{display: none;}
